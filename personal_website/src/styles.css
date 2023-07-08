@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.animal_image {
+    width: 35%;
+    height: 35%;
+    border: .5rem solid #757575;
+}
+
+.container {
+    margin: 1rem;
+    text-align: center
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.site-title {
+    font-size: 1.4rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav Button {
+    color: white;
+}
+
+.nav Button.active {
+    background-color: #896666;
+}
+
+.nav Button:hover {
+    background-color: #297332;
+}
+
