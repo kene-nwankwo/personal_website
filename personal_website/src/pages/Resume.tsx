@@ -61,7 +61,7 @@ function Skills(){
   return (
     <>
     <h3 className='section_name'>Skills</h3>
-    <h5 className='section_title_h3_h4_h5'>Python, Pandas, Java, JavaScript, ReactJS, C/C++, OCaml, HTML, MS Suite, Google Suite, AVR Assembly</h5>
+    <h5 className='section_title_h3_h4_h5'>Python, Java, JavaScript, ReactJS, C/C++, OCaml, Pandas, Stata, HTML, MS Suite, Google Suite, AVR Assembly</h5>
     </>
   )
 }
@@ -77,22 +77,21 @@ function Projects(){
     <li>Used structures create an efficient algorithm to store nearest cell towers to cell users on a 2-dimensional plane as users and towers are added and removed. Created an efficient algorithm to find the optimal location to place future cell towers</li>
     </ul>
 
+    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Professional Portfolio Website - ReactJS, AWS</h4></a>
+    <ul className='section_ul'>
+    <li>Developed a personal website using ReactJS, showcasing strong proficiency in front-end development and responsive design</li>
+    <li>Demonstrated expertise in AWS by deploying the website using Amazon S3 for static content hosting</li>
+    </ul>
+
     <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Maze Solving Algorithm - Java</h4></a>
     <ul className='section_ul'>
     <li>Implemented 3 algorithms to solve a randomized maze. Solved with Depth-First, Breadth-First, and Dijsktra's Algorithm</li>
     <li>Implemented a Weighted Graph using hash maps to hold and model the contents of the maze and traverse its vertices</li>
-    <li>Used nested hashMaps to Implement the Weighted graph data structure</li>
-    </ul>
-
-    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Data Structure Projects - Java</h4></a>
-    <ul className='section_ul'>
-    <li>Created several Data structures from the ground up, including additional useful methods</li>
-    <li>Created implementations of the LinkedList, Hash Table, Binary Search Tree Map, Heavy Bag, and Graph</li>
     </ul>
 
     <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>C Shell – C Language</h4></a>
     <ul className='section_ul'>
-    <li>Implemented a shell that supports boolean operations, pipes, subshells, and file redirection</li>
+    <li>Implemented a command-line shell that interprets boolean operations, pipes, subshells, and file redirection</li>
     </ul>
 
     <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Micro Computer Language - OCaml</h4></a>
@@ -115,30 +114,30 @@ function Employment_Experience(){
     <a className='section_title_h3_h4_h5' href="https://www.owenscorning.com/en-us" target="_blank"><h4 className='section_title_h3_h4_h5'>Owens Corning - Toledo, OH</h4></a>
     <h5 className='section_title_h3_h4_h5'>Corporate Finance Intern – Economics Dep. - May 2023 – Present</h5>
     <ul className='section_ul'>
+      <li>Develop a comprehensive predictive model using Python and Stata to accurately a forecast $500 million market segment</li>
       <li>Utilize statistical analysis techniques and market research to identify key variables that influence market trends and demand</li>
-      <li>Develop a comprehensive predictive model using advanced forecasting methods to accurately project future market demand</li>
-      <li>Contribute to the organization's strategic planning by providing insights and actionable recommendations based on forecasts</li>
+      <li>Provide insights and actionable recommendations based on forecast, contributing to the teams strategic planning</li>
       <li>Collaborate with cross-functional teams incorporating feedback, to enhance the accuracy and robustness of the forecasts</li>
     </ul>
 
     <a className='section_title_h3_h4_h5' href="https://omse.umd.edu/" target="_blank"><h4 className='section_title_h3_h4_h5'>Office of Mult-Ethnic Student Education - College Park, MD</h4></a>
     <h5 className='section_title_h3_h4_h5'>Team Leader - May 2019-Present</h5>
     <ul className='section_ul'>
-      <li>Mentor a group of 80 students on academic and professional skillsets in conjunction with personal support</li>
+      <li>Mentor a group of 80 students on academic and professional skills, as well as provide personal support and advising</li>
+      <li>Maintain multiple databases to record student data, enabling timely intervention and support for underperforming studentss</li>
       <li>Manage daily operations to ensure accountability and accuracy of student deliverables</li>
-      <li>Maintain multiple databases to log traffic data and record student data</li>
       <li>Interview and assess applicants for leadership roles within the Office of Multiethnic Student Education</li>
     </ul>
 
     <h4 className='section_title_h3_h4_h5'>Maryland Consulting Firm - Lamham, MD</h4>
-    <h5 className='section_title_h3_h4_h5'>Intern - May-July 2021</h5>
+    <h5 className='section_title_h3_h4_h5'>Intern - Small Business Consulting - May-July 2021</h5>
     <ul className='section_ul'>
       <li>Grew client revenue through an assessment of customer technical requirements and curation of appropriate product selections</li>
       <li>Responded to inquiries in a timely and professional manner as an account representative</li>
     </ul>
 
     <a className='section_title_h3_h4_h5' href="./Wikler"><h4 className='section_title_h3_h4_h5'>Wikler Case Competition - College Park, MD</h4></a>
-    <h5 className='section_title_h3_h4_h5'>Team Member - April 2021</h5>
+    <h5 className='section_title_h3_h4_h5'>Team Leader - April 2021</h5>
     <ul className='section_ul'>
       <li>Determined investment recommendation via discounted cash flows analysis of project value</li>
       <li>Researched key economic, industry, and company factors to determine case position and identify vulnerabilities</li>
@@ -173,7 +172,7 @@ function Employment_Experience(){
     <h5 className='section_title_h3_h4_h5'>Student - July 2017</h5>
       <ul className='section_ul'>
         <li>Placed second in entrepreneurial competition with business idea created as a team of six</li>
-        <li>Pitched business plan to a group of potential investors judging the coemption</li>
+        <li>Pitched business plan to a group of potential investors judging the competition</li>
       </ul>
     
     <h4 className='section_title_h3_h4_h5'>Projects Abroad - Soysambu, Kenya</h4>

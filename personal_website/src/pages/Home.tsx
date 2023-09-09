@@ -34,8 +34,8 @@ function HomeBody(){
     return (
         <>
         <h2>About Me:</h2>
-        <a>I am a Junior at the University of Maryland Studying Computer Science, Finance and International Business. This is my website where you can learn a little more about me and get a better understadning of the work I've done and the projects I'm working on!</a><br/>
-        <a>I grew up in Bethesda, Maryland where I attended <a href="https://www2.montgomeryschoolsmd.org/schools/wjhs/" target="_blank">Walter Johnson High School </a>. In 2018 I was accepted into the <a href="https://www.umd.edu/" target="_blank">University of Maryland</a> where I am currently completing my undergraduate degrees.</a>
+        <a>I am a junior at the University of Maryland studying Computer Science, Finance, and International Business. This is my website where you can learn a little more about me and get a better understanding of the work I've done and the projects I'm working on!</a><br/>
+        <a>I grew up in Bethesda, Maryland, where I attended <a href="https://www2.montgomeryschoolsmd.org/schools/wjhs/" target="_blank">Walter Johnson High School </a>. I attend the <a href="https://www.umd.edu/" target="_blank">University of Maryland</a> where I am currently completing my undergraduate degrees.</a>
   <br/>
   <img src={KeneHeadShot} className='image' />
   <br/>

@@ -13,12 +13,13 @@
     Styles for visited links 
     color: purple;
   }
-  */
-  
+*/
+/*
   a:hover {
-    /* Styles for links on hover */
+    Styles for links on hover 
     color: #00ffdd;
-  } 
+  }
+*/
 
 body {
     margin: 0;
@@ -26,8 +27,8 @@ body {
 
 .image {
     border-radius: 7%;
-    width: 35%;
-    height: 35%;
+    width: 20%;
+    height: 20%;
     border: .25rem solid #4b4b4b;
     margin: .5rem;
 }
