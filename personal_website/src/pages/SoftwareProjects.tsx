@@ -1,5 +1,5 @@
 import Maze from '../Project PDFS/Java Projects/132 Projects/CMSC 132 Project 7.pdf';
-import ClearCell from '../Project PDFS/Java Projects/132 Projects/CMSC 132 Poject 3.pdf';
+import ClearCell from '../Project PDFS/Java Projects/132 Projects/CMSC 132 Project 3.pdf';
 import BlackJack from '../Project PDFS/Java Projects/132 Projects/Blackjack Game Project.pdf';
 import LinkedList from '../Project PDFS/Java Projects/132 Projects/Data Structure Projects/CMSC 132 Proj4 LinkedList.pdf';
 import HashTable from '../Project PDFS/Java Projects/132 Projects/Data Structure Projects/CMSC 132 Project 5.pdf';
@@ -33,12 +33,13 @@ export default function Home(){
 }
 
 
+
 function Java(){
     return (
         <>
         <h3 className='section_name'>Java</h3>
 
-        <a className='section_title_h3_h4_h5' href={Maze} target="_blank"><h4 className='section_title_h3_h4_h5'>Maze Solving Algorithm</h4></a>
+        <a className='section_title_h3_h4_h5' href={Maze} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Maze Solving Algorithm</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Graphs, Weighted Graphs, HashMaps, Depth-First-Search, Breadth-First-Search, Dijsktra's Algorithm</h5>
         <ul className='section_ul'>
@@ -47,18 +48,18 @@ function Java(){
         <li>Used nested hashMaps to Implement the Weighted graph data structure</li>
         </ul>
 
-        <a className='section_title_h3_h4_h5' href={ClearCell} target="_blank"><h4 className='section_title_h3_h4_h5'>Clear Cell Game</h4></a>
+        <a className='section_title_h3_h4_h5' href={ClearCell} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Clear Cell Game</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Enumerated type, abstract class, 2D Array Manipulation</h5>
         <ul className='section_ul'>
         <li>Implemented the logic model for a clear cell game</li>
         <li>Used Enumerated types and an abstract class to display the contents of a game board stored in a 2D Array</li>
         <li>Designed methods to control the contents of the game board based on user actions in accordance with the rules of the game</li>
-        <a href="https://www.youtube.com/watch?v=tLo9S8iYPZ0&ab_channel=CMSC132_Emad" target="_blank"><li>Game Video</li></a>
+        <a href="https://www.youtube.com/watch?v=tLo9S8iYPZ0&ab_channel=CMSC132_Emad" target="_blank" rel="noreferrer"><li>Game Video</li></a>
 
         </ul>
 
-        <a href={BlackJack} target="_blank"><h4 className='section_title_h3_h4_h5'>Black Jack Game</h4></a>
+        <a href={BlackJack} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Black Jack Game</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>ArrayList, Enumerated types</h5>
         <ul className='section_ul'>
@@ -71,13 +72,13 @@ function Java(){
 
         <h5 className='section_title_h3_h4_h5'>Created several Data structures from the ground up, including additional useful methods</h5>
         <ul className='section_ul'>
-        <a href={LinkedList} target="_blank"><li>LinkedList</li></a>
-        <a href={HashTable} target="_blank"><li>HashTable</li></a>
-        <a href={BiTree} target="_blank"><li>Binary Search Tree Map</li></a>
-        <a href={HeavyBag} target="_blank"><li>Heavy Bag</li></a>
+        <a href={LinkedList} target="_blank" rel="noreferrer"><li>LinkedList</li></a>
+        <a href={HashTable} target="_blank" rel="noreferrer"><li>HashTable</li></a>
+        <a href={BiTree} target="_blank" rel="noreferrer"><li>Binary Search Tree Map</li></a>
+        <a href={HeavyBag} target="_blank" rel="noreferrer"><li>Heavy Bag</li></a>
         </ul>
 
-        <a className='section_title_h3_h4_h5' href={DiagramSys} target="_blank"><h4 className='section_title_h3_h4_h5'>Diagram System</h4></a>
+        <a className='section_title_h3_h4_h5' href={DiagramSys} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Diagram System</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>2D Arrays, Array manipulation, Inheritance, GUI</h5>
         <ul className='section_ul'>
@@ -85,7 +86,7 @@ function Java(){
         <li>Calculate the next animation step on a 2D Array for the next frame in GUI</li>
         </ul>
 
-        <a className='section_title_h3_h4_h5' href={MediaRental} target="_blank"><h4 className='section_title_h3_h4_h5'>Media Rental Manager</h4></a>
+        <a className='section_title_h3_h4_h5' href={MediaRental} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Media Rental Manager</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Classes, Interfaces, Polymorphism</h5>
         <ul className='section_ul'>
@@ -104,7 +105,7 @@ function CLanguage(){
         <>
         <h3 className='section_name'>C Language</h3>
 
-        <a className='section_title_h3_h4_h5' href={Treads} target="_blank"><h4 className='section_title_h3_h4_h5'>Threads</h4></a>
+        <a className='section_title_h3_h4_h5' href={Treads} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Threads</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Threads, Pipe, Fork, Dup2, Randomization, Command Line Arguments, Dynamic Memory Allocation, Program timing</h5>
         <ul className='section_ul'>
@@ -113,7 +114,7 @@ function CLanguage(){
         <li>Compared the times it took to perform the operations with different numbers of threads. Graphed the times to the number of threads used in the process to find the optimal number of threads to complete the operations the most efficiently</li>
         </ul>
 
-        <a className='section_title_h3_h4_h5' href={CShell} target="_blank"><h4 className='section_title_h3_h4_h5'>C Shell</h4></a>
+        <a className='section_title_h3_h4_h5' href={CShell} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>C Shell</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Pipe, Fork, Dup2, exec functions Makefile</h5>
         <ul className='section_ul'>
@@ -122,7 +123,7 @@ function CLanguage(){
         <li>The shell prompts the user for a command, parses the command, and then attempts to execute the command</li>
         </ul>
 
-        <a className='section_title_h3_h4_h5' href={Calendar} target="_blank"><h4 className='section_title_h3_h4_h5'>Calendar</h4></a>
+        <a className='section_title_h3_h4_h5' href={Calendar} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Calendar</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Dynamic Memory Allocation, Function Pointers, Linked Lists, Makefile</h5>
         <ul className='section_ul'>
@@ -131,7 +132,7 @@ function CLanguage(){
         <li>Calendar events can be sorted based on different criteria. Events can be associated with additional information. Different sorting and info are handled with function pointers</li>
         </ul>
 
-        <h4 className='section_title_h3_h4_h5'><a href={DocManager} target="_blank">Document Manager</a> and <a href={UserInter} target="_blank">User Interface</a></h4>
+        <h4 className='section_title_h3_h4_h5'><a href={DocManager} target="_blank" rel="noreferrer">Document Manager</a> and <a href={UserInter} target="_blank" rel="noreferrer">User Interface</a></h4>
 
         <h5 className='section_title_h3_h4_h5'>C Structures, Functions, String Manipulation, text parsing, File I/O, Command Line Arguments</h5>
         <ul className='section_ul'>
@@ -139,7 +140,7 @@ function CLanguage(){
         <li>Wrote a text-based user interface to the document manager system, that allows users to load, save, and edit documents that have been created</li>
         </ul>
 
-        <a className='section_title_h3_h4_h5' href={GradesCalc} target="_blank"><h4 className='section_title_h3_h4_h5'>Grades Calculator</h4></a>
+        <a className='section_title_h3_h4_h5' href={GradesCalc} target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Grades Calculator</h4></a>
 
         <h5 className='section_title_h3_h4_h5'>Functions, Arrays</h5>
         <ul className='section_ul'>
@@ -158,7 +159,7 @@ function AVRAssembly(){
         <>
         <h3 className='section_name'>AVR Assembly</h3>
 
-        <h4 className='section_title_h3_h4_h5'>Assembly Projects <a href={AssemP1} target="_blank"> Project1</a> <a href={AssemP2} target="_blank"> Project2</a> </h4> 
+        <h4 className='section_title_h3_h4_h5'>Assembly Projects <a href={AssemP1} target="_blank" rel="noreferrer"> Project1</a> <a href={AssemP2} target="_blank" rel="noreferrer"> Project2</a> </h4> 
 
         <h5 className='section_title_h3_h4_h5'>Converted C code fragments into AVR Assembly code with the same functionality</h5>
         <ul className='section_ul'>

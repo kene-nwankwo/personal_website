@@ -3,34 +3,38 @@
 }
 
 
- a:link {
+  a:link {
      /* Styles for unvisited links */
-    color: #66319b;
+    color: #294C60;
   }
-  
-  /* 
   a:visited {
-    Styles for visited links 
-    color: purple;
+    /* Styles for visited links */
+    color: #3c81a8;
   }
-*/
-/*
-  a:hover {
-    Styles for links on hover 
-    color: #00ffdd;
+  a:link:hover {
+    /*Styles for links on hover */
+    color: #3c81a8;
   }
-*/
 
+  @import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  
 body {
     margin: 0;
+    background-color: #faf5e7;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
+
 
 .image {
     border-radius: 7%;
     width: 20%;
     height: 20%;
-    border: .25rem solid #4b4b4b;
-    margin: .5rem;
+    /*border: .3rem solid #294C60;  Color of border around the image */
+    margin: 2rem;
 }
 
 .container {
@@ -39,7 +43,7 @@ body {
 }
 
 .nav {
-    background-color: #2d1c3d;
+    background-color: #294C60;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -69,15 +73,15 @@ body {
 }
 
 .nav Button {
-    color: white;
+    color: #FFEFD3;
 }
 
 .nav Button.active {
-    background-color: #c7a32c;
+    background-color: #001B2E;
 }
 
 .nav Button:hover {
-    background-color: #3e1f86;
+    background-color: #ADB6C4;
 }
 
 .section_name {
@@ -109,3 +113,14 @@ body {
     width: 100%;
     height: 600px;
 }
+
+/*
+Color Palette
+
+001B2E
+294C60
+ADB6C4
+FFEFD3
+FFC49B
+
+*/

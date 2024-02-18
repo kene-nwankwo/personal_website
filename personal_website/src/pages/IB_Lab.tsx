@@ -15,13 +15,13 @@ export default function IB_Lab(){
         <embed src={IB_Lab_PDf} type="application/pdf" className='imbedded_pdf' />
         </div>
 
-        <a href={IB_Lab_PDf} target="_blank"><h4>Final Presentation</h4></a>
-        <a href={Entrep_FINAL_PDF} target="_blank"><h4>Competition Summary</h4></a>
-        <a href={Case_PDF} target="_blank"><h4>Case</h4></a>
-        <a href={Migrap_Bios_PDF} target="_blank"><h4>Migrapreneur Bios</h4></a>
+        <a href={IB_Lab_PDf} target="_blank" rel="noreferrer"><h4>Final Presentation</h4></a>
+        <a href={Entrep_FINAL_PDF} target="_blank" rel="noreferrer"><h4>Competition Summary</h4></a>
+        <a href={Case_PDF} target="_blank" rel="noreferrer"><h4>Case</h4></a>
+        <a href={Migrap_Bios_PDF} target="_blank" rel="noreferrer"><h4>Migrapreneur Bios</h4></a>
 
         <h3>The Team</h3>
-        <img src={TeamPhoto} width="709px" height="293px"></img>
+        <img src={TeamPhoto} width="709px" height="293px" alt="International Business Agility Lab Team"></img>
 
     </div>
     )

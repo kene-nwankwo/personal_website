@@ -9,7 +9,7 @@ export default function Fire(){
         <embed src={FirePDf} type="application/pdf" className='imbedded_pdf'/>
         </div>
 
-        <a href={FirePDf} target="_blank"><h4>Download PDF</h4></a>
+        <a href={FirePDf} target="_blank" rel="noreferrer"><h4>Download PDF</h4></a>
 
     </div>
     )

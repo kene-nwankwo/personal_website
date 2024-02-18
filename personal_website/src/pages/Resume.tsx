@@ -8,22 +8,22 @@ export default function Home(){
     <div>
         <ResumeHead />
         <hr/>
-        <Button><a href={resumePdf} target="_blank"><h3>Resume PDF</h3></a></Button>
+        <Button><a href={resumePdf} target="_blank" rel="noreferrer"><h3>Resume PDF</h3></a></Button>
         <hr/>
         <ResumeBody />
     </div>
     )
 }
 
-function CustomLink({ to, children, ...props }: {to:any, children:any}) {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({ path: resolvedPath.pathname , end: true})
-  return(
-      <Button className={isActive ? "active" : ""}>
-          <Link to={to} {...props}>{children}</Link>
-      </Button>
-  )
-}
+// function CustomLink({ to, children, ...props }: {to:any, children:any}) {
+//   const resolvedPath = useResolvedPath(to)
+//   const isActive = useMatch({ path: resolvedPath.pathname , end: true})
+//   return(
+//       <Button className={isActive ? "active" : ""}>
+//           <Link to={to} {...props}>{children}</Link>
+//       </Button>
+//   )
+// }
 
 
 function ResumeHead(){
@@ -31,14 +31,14 @@ function ResumeHead(){
         <>
         <h2>Kenenna Nwankwo's Resume</h2>
         <h3>Student at The University of Maryland<br/>
-        <a href="https://cmns.umd.edu/" target="_blank">College of Computer, Mathematical, and Natural Sciences</a><br/>
-        <a href="https://www.rhsmith.umd.edu/" target="_blank">Robert H. Smith School of Business</a></h3>
+        <a href="https://cmns.umd.edu/" target="_blank" rel="noreferrer">College of Computer, Mathematical, and Natural Sciences</a><br/>
+        <a href="https://www.rhsmith.umd.edu/" target="_blank" rel="noreferrer">Robert H. Smith School of Business</a></h3>
         
         <h3> Majors: <br/> 
-        <a href="https://academiccatalog.umd.edu/undergraduate/colleges-schools/computer-mathematical-natural-sciences/computer-science/computer-science-major/#requirementstext" target="_blank">Computer Science </a> GPA: 3.94 <br/>
-        <a href="https://www.rhsmith.umd.edu/faculty-research/academic-departments/finance" target="_blank">Finance, </a><a href="https://academiccatalog.umd.edu/undergraduate/colleges-schools/business/logistics-business-public-policy/international-business-major/" target="_blank">International Business</a> GPA: 3.73
+        <a href="https://academiccatalog.umd.edu/undergraduate/colleges-schools/computer-mathematical-natural-sciences/computer-science/computer-science-major/#requirementstext" target="_blank" rel="noreferrer">Computer Science </a> GPA: 3.95 <br/>
+        <a href="https://www.rhsmith.umd.edu/faculty-research/academic-departments/finance" target="_blank" rel="noreferrer">Finance, </a><a href="https://academiccatalog.umd.edu/undergraduate/colleges-schools/business/logistics-business-public-policy/international-business-major/" target="_blank" rel="noreferrer">International Business</a> GPA: 3.74
         </h3>
-        <h4> Contact: KeneDaniel@gmail.com<a> | </a> <a href="https://www.linkedin.com/in/kenenna-nwankwo/">Linkedin</a></h4>
+        <h4> Contact: KeneDaniel@gmail.com | <a href="https://www.linkedin.com/in/kenenna-nwankwo/">Linkedin</a></h4>
         </>
     )
 }
@@ -50,9 +50,9 @@ function ResumeBody(){
         <hr/>
         <Projects />
         <hr/>
-        <Employment_Experience />
+        <EmploymentExperience />
         <hr/>
-        <Activities_Affiliations />
+        <ActivitiesAffiliations />
         </>
     )
 }
@@ -71,30 +71,30 @@ function Projects(){
     <>
     <h3 className='section_name'><a href="./SoftwareProjects">Projects</a></h3>
 
-    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Clustering and the Farthest-First Traversal – Java</h4></a>
+    <p className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Clustering and the Farthest-First Traversal – Java</h4></p>
     <ul className='section_ul'>
     <li>Created optimized data structures of a weighted leftist heap and sliding midpoint K-D tree from the ground up</li>
     <li>Used structures create an efficient algorithm to store nearest cell towers to cell users on a 2-dimensional plane as users and towers are added and removed. Created an efficient algorithm to find the optimal location to place future cell towers</li>
     </ul>
 
-    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Professional Portfolio Website - ReactJS, AWS</h4></a>
+    <p className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Professional Portfolio Website - ReactJS, AWS</h4></p>
     <ul className='section_ul'>
     <li>Developed a personal website using ReactJS, showcasing strong proficiency in front-end development and responsive design</li>
     <li>Demonstrated expertise in AWS by deploying the website using Amazon S3 for static content hosting</li>
     </ul>
 
-    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Maze Solving Algorithm - Java</h4></a>
+    <p className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Maze Solving Algorithm - Java</h4></p>
     <ul className='section_ul'>
     <li>Implemented 3 algorithms to solve a randomized maze. Solved with Depth-First, Breadth-First, and Dijsktra's Algorithm</li>
     <li>Implemented a Weighted Graph using hash maps to hold and model the contents of the maze and traverse its vertices</li>
     </ul>
 
-    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>C Shell – C Language</h4></a>
+    <p className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>C Shell – C Language</h4></p>
     <ul className='section_ul'>
     <li>Implemented a command-line shell that interprets boolean operations, pipes, subshells, and file redirection</li>
     </ul>
 
-    <a className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Micro Computer Language - OCaml</h4></a>
+    <p className='section_title_h3_h4_h5'><h4 className='section_title_h3_h4_h5'>Micro Computer Language - OCaml</h4></p>
     <ul className='section_ul'>
     <li>Implemented a lexer, parser and interpreter for a working language with a subset of the features in the language OCaml</li>
     <li>Complied text files into abstract syntax trees and interpreted the trees using logical operational semantics</li>
@@ -106,12 +106,12 @@ function Projects(){
   )
 }
 
-function Employment_Experience(){
+function EmploymentExperience(){
   return (
     <>
     <h3 className='section_name' >Employment/Experience</h3>
 
-    <a className='section_title_h3_h4_h5' href="https://www.owenscorning.com/en-us" target="_blank"><h4 className='section_title_h3_h4_h5'>Owens Corning - Toledo, OH</h4></a>
+    <a className='section_title_h3_h4_h5' href="https://www.owenscorning.com/en-us" target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Owens Corning - Toledo, OH</h4></a>
     <h5 className='section_title_h3_h4_h5'>Corporate Finance Intern – Economics Dep. - May 2023 – Present</h5>
     <ul className='section_ul'>
       <li>Develop a comprehensive predictive model using Python and Stata to accurately a forecast $500 million market segment</li>
@@ -120,7 +120,7 @@ function Employment_Experience(){
       <li>Collaborate with cross-functional teams incorporating feedback, to enhance the accuracy and robustness of the forecasts</li>
     </ul>
 
-    <a className='section_title_h3_h4_h5' href="https://omse.umd.edu/" target="_blank"><h4 className='section_title_h3_h4_h5'>Office of Mult-Ethnic Student Education - College Park, MD</h4></a>
+    <a className='section_title_h3_h4_h5' href="https://omse.umd.edu/" target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>Office of Mult-Ethnic Student Education - College Park, MD</h4></a>
     <h5 className='section_title_h3_h4_h5'>Team Leader - May 2019-Present</h5>
     <ul className='section_ul'>
       <li>Mentor a group of 80 students on academic and professional skills, as well as provide personal support and advising</li>
@@ -153,7 +153,7 @@ function Employment_Experience(){
       <li>Tackled challenges of working in global virtual team environment, including cultural and time zone differences</li>
     </ul>
 
-    <h4 className='section_title_h3_h4_h5'><a href="https://ece.umd.edu/events/student-events/125-mile-e-bike-challenge" target="_blank">Clark School of Engineering 125 Mile E-Bike Challenge - College Park, MD</a></h4>
+    <h4 className='section_title_h3_h4_h5'><a href="https://ece.umd.edu/events/student-events/125-mile-e-bike-challenge" target="_blank" rel="noreferrer">Clark School of Engineering 125 Mile E-Bike Challenge - College Park, MD</a></h4>
     <h5 className='section_title_h3_h4_h5'>Team Member - August 2019–December 2019</h5>
       <ul className='section_ul'>
         <li>Designed and developed an electric bike capable of long-distance travel under a combination of human and electric power</li>
@@ -168,7 +168,7 @@ function Employment_Experience(){
         <li>Accounted for sold inventory and reported the number of items to be ordered from suppliers</li>
       </ul>
 
-    <h4 className='section_title_h3_h4_h5'><a href="https://www.rhsmith.umd.edu/centers/snider-center/programs-curricula/self" target="_blank">Snider Enterprise and Leadership Fellows - College Park, MD</a></h4>
+    <h4 className='section_title_h3_h4_h5'><a href="https://www.rhsmith.umd.edu/centers/snider-center/programs-curricula/self" target="_blank" rel="noreferrer">Snider Enterprise and Leadership Fellows - College Park, MD</a></h4>
     <h5 className='section_title_h3_h4_h5'>Student - July 2017</h5>
       <ul className='section_ul'>
         <li>Placed second in entrepreneurial competition with business idea created as a team of six</li>
@@ -185,12 +185,12 @@ function Employment_Experience(){
   )
 }
 
-function Activities_Affiliations(){
+function ActivitiesAffiliations(){
   return (
     <>
     <h3 className='section_name'>Activities/Affiliations</h3>
 
-    <a className='section_title_h3_h4_h5' href="https://css.umd.edu/" target="_blank"><h4 className='section_title_h3_h4_h5'>College Success Scholars - College Park, MD</h4></a>
+    <a className='section_title_h3_h4_h5' href="https://css.umd.edu/" target="_blank" rel="noreferrer"><h4 className='section_title_h3_h4_h5'>College Success Scholars - College Park, MD</h4></a>
     <h5 className='section_title_h3_h4_h5'>Member - July 2018–Present</h5>
       <ul className='section_ul'>
         <li>Identified key questions and issues; social, political, and cultural across communities in the United States</li>
